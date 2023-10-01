@@ -41,7 +41,7 @@
     "onboarding.tips.debug.path": "D:/institute/java/lab_2/lab_2/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.lab3.Main">
+  <component name="RunManager" selected="Application.lab_3.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab_2.Main" />
       <module name="lab_2" />
@@ -55,12 +55,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lab3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab3.Main" />
+    <configuration name="lab_3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_3.Main" />
       <module name="lab_2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab3.*" />
+          <option name="PATTERN" value="lab_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,7 +70,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lab3.Main" />
+        <item itemvalue="Application.lab_3.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
