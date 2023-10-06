@@ -1,0 +1,14 @@
+Исключение: lab_4.DivisionByZero.CustomDivisionException
+Сообщение: Division by zero! a/0
+Стек вызовов:
+lab_4.DivisionByZero.CustomDivisionException: Division by zero! a/0
+	at lab_4.DivisionByZero.Main.division(Main.java:40)
+	at lab_4.DivisionByZero.Main.main(Main.java:13)
+------------------------
+Исключение: lab_4.DivisionByZero.CustomDivisionException
+Сообщение: Division by zero! a/0
+Стек вызовов:
+lab_4.DivisionByZero.CustomDivisionException: Division by zero! a/0
+	at lab_4.DivisionByZero.Main.division(Main.java:40)
+	at lab_4.DivisionByZero.Main.main(Main.java:13)
+------------------------
