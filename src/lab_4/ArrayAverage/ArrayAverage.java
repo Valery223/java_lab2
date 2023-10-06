@@ -1,4 +1,4 @@
-package lab_4;
+package lab_4.ArrayAverage;
 
 import java.util.Scanner;
 public class ArrayAverage {
@@ -9,6 +9,7 @@ public class ArrayAverage {
             System.out.print("Введите длину массива: ");
             while(!scanner.hasNextInt()){
                 System.out.println("Ошибка: Введено неверное значение");
+                System.out.print("Введите длину массива: ");
                 scanner.next();
             }
             length = scanner.nextInt();
@@ -28,6 +29,17 @@ public class ArrayAverage {
                 scanner.next();
                 i--;
             }
+        }
+        try{
+            nums[nums.length]=45;
+            nums[6]=Integer.parseInt("gfd");
+        }
+        catch(ArrayIndexOutOfBoundsException e){
+            System.err.println("Выход за пределы массива");
+        }
+        catch(NumberFormatException e){
+
+            System.err.println("Ошибка преобразования из строки в число");
         }
         double sum = 0;
         for(double i : nums){

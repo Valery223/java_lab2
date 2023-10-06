@@ -1,4 +1,4 @@
-package lab_4;
+package lab_4.FileCopy;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -8,7 +8,7 @@ import java.nio.file.Paths;
 public class FileCopy {
 
     public static void main(String[] args){
-        String path1 = "D:/institute/java/lab_2/lab_2/src/lab_4/text1.txt";
+        String path1 = "D:/institute/java/lab_2/lab_2/src/lab_4/FileCopy/text1.txt";
         String path2 = "D:/institute/java/lab_2/lab_2/src/lab_4/text2.txt";
 
         Path out = Paths.get(path1);
